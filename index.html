@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonte Graphics | Design • Create • Grow</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="logo-container">
+      <div class="logo-symbol">JG</div>
+      <div class="logo-text">
+        <span class="brand-title">JONTE <span class="highlight">GRAPHICS</span></span>
+        <span class="brand-tagline">Design | Create | Grow</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">YOUR VISION, OUR CODE & DESIGN</span>
+      <h1>Creative Graphic Design & Modern Web Solutions</h1>
+      <p>Transforming ideas into powerful visuals and high-converting websites for businesses across Nakuru, Kabarak, and beyond.</p>
+      <div class="hero-buttons">
+        <a href="#services" class="btn primary-btn">Explore Services</a>
+        <a href="https://wa.me/254753419392?text=Hello%20Jonte%20Graphics,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="btn whatsapp-btn">
+          <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPANY PROFILE / ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>About <span class="highlight">Jonte Graphics</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-card">
+        <p><strong>Jonte Graphics</strong> is a premier design and web development agency based in Nakuru / Kabarak, Kenya. We specialize in delivering high-impact branding solutions, creative visual graphics, and custom responsive web applications.</p>
+        <p>Our goal is simple: help businesses, startups, and personal brands stand out with quality creative assets at sensible deals. From eye-catching logos and flyers to fully-functional e-commerce and portfolio websites, we turn your creative ideas into digital success.</p>
+        
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Responsive Designs</p>
+          </div>
+          <div class="stat-item">
+            <h3>Fast</h3>
+            <p>& Secure Delivery</p>
+          </div>
+          <div class="stat-item">
+            <h3>Affordable</h3>
+            <p>Sensible Deals</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES / PRODUCTS SECTION -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our <span class="highlight">Services & Products</span></h2>
+        <p>Select a service to order directly via WhatsApp</p>
+        <div class="underline"></div>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Branding & Logos</h3>
+          <p>Unique visual identities, high-resolution logos, vector formats, and brand guidelines to make your business memorable.</p>
+          <button class="order-btn" onclick="orderService('Branding & Logo Design')">
+            <i class="fab fa-whatsapp"></i> Request Design
+          </button>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-sticky-note"></i></div>
+          <h3>Stickers & Signages</h3>
+          <p>Custom promotional stickers, product label designs, outdoor banners, and business signage graphics.</p>
+          <button class="order-btn" onclick="orderService('Stickers & Signages')">
+            <i class="fab fa-whatsapp"></i> Request Design
+          </button>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-file-powerpoint"></i></div>
+          <h3>Flyers & Posters</h3>
+          <p>Eye-catching event posters, social media banners, promotional flyers, and print-ready marketing materials.</p>
+          <button class="order-btn" onclick="orderService('Flyers & Posters')">
+            <i class="fab fa-whatsapp"></i> Request Design
+          </button>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Business, E-commerce, Portfolio, Blog, and Custom Web Applications optimized for mobile, speed, and SEO.</p>
+          <button class="order-btn" onclick="orderService('Web Development')">
+            <i class="fab fa-whatsapp"></i> Request Quote
+          </button>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Digital Services</h3>
+          <p>Social media graphic suites, cover images, digital ad banners, and online marketing layout setups.</p>
+          <button class="order-btn" onclick="orderService('Digital Services')">
+            <i class="fab fa-whatsapp"></i> Request Service
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK CONTACT / SOCIAL HUBS -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Get in <span class="highlight">Touch</span></h2>
+        <p>Connect with us across our social and direct communication channels</p>
+        <div class="underline"></div>
+      </div>
+
+      <div class="contact-cards">
+        <a href="https://wa.me/254753419392" target="_blank" class="contact-card whatsapp">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>0753 419 392</p>
+          <span>Chat Instantly &rarr;</span>
+        </a>
+
+        <a href="tel:0740342719" class="contact-card phone">
+          <i class="fas fa-phone-alt"></i>
+          <h3>Direct Call</h3>
+          <p>0740 342 719</p>
+          <span>Call Now &rarr;</span>
+        </a>
+
+        <a href="https://facebook.com" target="_blank" class="contact-card facebook">
+          <i class="fab fa-facebook-f"></i>
+          <h3>Facebook</h3>
+          <p>Jonte Graphics</p>
+          <span>Visit Page &rarr;</span>
+        </a>
+
+        <a href="https://instagram.com" target="_blank" class="contact-card instagram">
+          <i class="fab fa-instagram"></i>
+          <h3>Instagram</h3>
+          <p>@jontegraphics</p>
+          <span>Follow Us &rarr;</span>
+        </a>
+      </div>
+
+      <div class="location-box">
+        <i class="fas fa-map-marker-alt highlight"></i>
+        <span><strong>Location:</strong> Nakuru / Kabarak, Kenya</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>JONTE GRAPHICS</strong> — WE BUILD MORE THAN WEBSITES, WE BUILD YOUR FUTURE.</p>
+    <p>&copy; 2026 Jonte Graphics. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
